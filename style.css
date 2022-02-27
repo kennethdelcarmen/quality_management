@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.active{
+.main-nav-active, .main-nav:hover{
     background-color: #FFFF99;
     color: #8C8C00;
     margin-left: -20px;
@@ -32,4 +32,10 @@
 #content {
     background-color: #FFFFFF;
     border-radius: 15px !important;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
