@@ -1,0 +1,13 @@
+.main-nav{
+    margin-bottom: 2rem;
+    width: 100%;
+    text-align: left;
+    background-color: lightblue;
+    color: lightslategray; 	
+}
+
+.main-nav-active{
+    background-color: khaki;
+    color: yellowgreen;
+    margin-left: -20px;
+}
