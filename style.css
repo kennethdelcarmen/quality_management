@@ -2,12 +2,26 @@
     margin-bottom: 2rem;
     width: 100%;
     text-align: left;
-    background-color: lightblue;
-    color: lightslategray; 	
+    background-color: #B0D5FF;
+    color: #506D8D; 
+    border: 1px solid #D6E9FF;	
+    text-align: center;
 }
 
-.main-nav-active{
-    background-color: khaki;
-    color: yellowgreen;
+.active{
+    background-color: #FFFF99;
+    color: #8C8C00;
     margin-left: -20px;
+    border: 1px solid #FFFFFF;
+}
+
+#body {
+    background-color: #F3FFFF;
+    border: 4px solid #AFCFFF !important;
+    border-radius: 15px !important;
+}
+
+#content {
+    background-color: #FFFFFF;
+    border-radius: 15px !important;
 }
