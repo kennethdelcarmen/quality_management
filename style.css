@@ -11,3 +11,11 @@
     color: yellowgreen;
     margin-left: -20px;
 }
+
+.player{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -60px;
+    width: 300px;
+}
