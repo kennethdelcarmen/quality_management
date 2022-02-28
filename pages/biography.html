@@ -9,7 +9,6 @@
 	<link href = "../style.css" rel="stylesheet">
 </head>
 <body>
-
 <div class="container-fluid p-4 text-center" style = "background-color: lightblue; color: lightslategray;">
 	<h1>ARMAND VALLIN FEIGENBAUM</h1>
 	<p>An American quality specialist known for Total Management (former Total Quality Control)</p> 
@@ -20,47 +19,135 @@
 		<div class = "col-sm-2 border-end ">
 			<button class="main-nav btn shadow-sm" onclick = "window.location.href = '../index.html' ">Feigenbaum</button>
 			<br/>
-			<button class="main-nav main-nav-active btn shadow" onclick = "window.location.href = 'biography.html'"> Biography </button>
+			<button class="main-nav main-nav-active btn shadow"> Biography </button>
 			<button class="main-nav btn shadow-sm" onclick = "window.location.href = 'associations.html' ">Association</button>
 			<br/>
-			<button class="main-nav btn shadow-sm" onclick = "window.location.href = 'achievements.html'">Achievements</button>
+			<button class="main-nav btn shadow-sm" onclick = "window.location.href = 'achievements.html' ">Achievements</button>
 			<br/>
-			<button class="main-nav btn shadow-sm">Contributions</button>
+			<button class="main-nav btn shadow-sm" onclick = "window.location.href = 'contributions.html' ">Contributions</button>
 		</div>
-		<div class="col-sm-2">
-		<label for='birth'>Birth</label>
-		<label for='edu'>Education</label>
-		<label for='career'>Career</label>
-		<label for='death'>Death</label>
-		<br />
-		<br />
-		</div>
-		<div class="col-sm-7">
-		<input type='radio' name='content' id='birth' checked='true' />
-			<div style="font-size:300%">  Born on 6th of April 1922  </div>
-		<input type='radio' name='content' id='edu' />
-			<div style="font-size:190%">
-				<ul>
-					<li> Bachelors Degree in Union College, Schenectady, NY </li>
-					<li> Masters Degree in Massachusetts Institute of Technology’s Sloan School of Management </li> 
-					<li> PHD in Massachusetts Institute of Technology </li>
-				</ul>	
-			</div>
-		<input type='radio' name='content' id='career' />
-		<div style="font-size:190%"> 
-			<ul>
-				<li>1958 - 1968 — Director of Manufacturing Operations at General Electric </li>
-				<li> 1968 — Founder, president and CEO of General Systems Company of Pittsfield Massachusetts, an engineering firm that designs and install operational systems </li> 
-			</ul>
-		</div>
-		<input type='radio' name='content' id='death' />
-		<div style="font-size:300%"> Passed away at the age of  92 on November 13, 2014  </div>
-		</div>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+		<div id = "content" class = "col-sm-10">
+<section class="timeline_area section_padding_130">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="apland-timeline-area">
+                    <div class="single-timeline-area row g-0">
+                        <div class="timeline-date" >
+                            <a style="text-decoration:none; color:black" href="#birth" data-bs-toggle="collapse">
+								Birth
+							</a>
+                        </div>
+						<div class="row">
+							 <div class="col-12 col-12 col-md-6 col-lg-2">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: invisible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+								 <div class="timeline-icon"><i class="fa fa-birthday-cake" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                            <div id = "birth" class="collapse collapse-horizontal col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-text">
+                                        <p>Born on 6th of April 1922</p>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+                    </div>
+                    <div class="single-timeline-area row g-0">
+                        <div class="timeline-date">
+                             <a style="text-decoration:none; color:black" href="#edu" data-bs-toggle="collapse">
+								Education
+							</a>
+                        </div>
+                        <div class="row">
+							<div class="col-12 col-md-6 col-lg-2">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                            <div id = "edu" class="collapse collapse-horizontal col-12 col-12 col-md-6 col-lg-3">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-text">
+                                        <p>Bachelors Degree in Union College, Schenectady, NY</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id = "edu" class="collapse collapse-horizontal col-12 col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-text">
+                                        <p>Masters Degree in Massachusetts Institute of Technology’s Sloan School of Management</p>
+                                    </div>
+                                </div>
+                            </div>
+							<div id = "edu" class="collapse collapse-horizontal col-12 col-md-6 col-lg-3">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;" >
+                                    <div class="timeline-text">
+                                        <p>PHD in Massachusetts Institute of Technology </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                           <a style="text-decoration:none; color:black" href="#car" data-bs-toggle="collapse">
+								Career
+							</a>
+                        </div>
+                        <div class="row">
+							<div class="col-12 col-md-6 col-lg-2">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-trophy" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                            <div id = "car" class="collapse collapse-horizontal col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                    <div class="timeline-text">
+                                        <p>1958 - 1968 — Director of Manufacturing Operations at General Electric</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id = "car" class="collapse collapse-horizontal col-12 col-md-6 col-lg-6">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInLeft;">
+                                    <div class="timeline-text">
+                                        <p>1968 — Founder, president and CEO of General Systems Company of Pittsfield Massachusetts, an engineering firm that designs and install operational systems</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="single-timeline-area">
+                        <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                            <a style="text-decoration:none; color:black" href="#death" data-bs-toggle="collapse">
+								Death
+							</a>
+                        </div>
+                        <div class="row">
+							<div class="col-12 col-md-6 col-lg-2">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-icon"><i class="fa fa-close" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                            <div id = "death" class="collapse collapse-horizontal col-12 col-md-6 col-lg-4">
+                                <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+                                    <div class="timeline-text">
+                                        <p>Passed away at the age of  92 on November 13, 2014</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
 	  <div class = "mx-auto">
 		<img class = "player" src = "../assets/player button.png">
 	  </div>
 	</div>
 </div>
-
 </body>
 </html>
